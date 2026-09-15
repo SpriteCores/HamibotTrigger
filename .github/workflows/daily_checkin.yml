@@ -4,7 +4,7 @@ on:
     - cron: '7 4 * * *'    # 北京时间 12:07
     - cron: '47 5 * * *'   # 北京时间 13:47
     - cron: '51 10 * * *'  # 北京时间 18:51
-
+  workflow_dispatch:
 jobs:
   run_python_script:
     runs-on: ubuntu-latest
